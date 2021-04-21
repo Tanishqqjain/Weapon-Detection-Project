@@ -12,9 +12,12 @@ cleaned_annotations = {}
 for k,v in annotations['_via_img_metadata'].items():
     cleaned_annotations[v['filename']] = v
 # create train and validation directories
-! mkdir procdata
-! mkdir procdata/val
-! mkdir procdata/train
+os.mkdir('./procdata')
+os.mkdir('./procdata/val')
+os.mkdir('./procdata/train')
+# ! mkdir procdata
+# ! mkdir procdata/val
+# ! mkdir procdata/train
 train_annotations = {}
 valid_annotations = {}
 # 20% of images in validation folder
