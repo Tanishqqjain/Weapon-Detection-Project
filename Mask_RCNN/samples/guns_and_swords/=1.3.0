@@ -1,0 +1,54 @@
+Collecting tensorflow
+  Using cached https://files.pythonhosted.org/packages/7b/61/743150d9cf5e028ac5cdd694ea26968a37ae054728c9d290c72c2687a982/tensorflow-2.4.1-cp37-cp37m-macosx_10_11_x86_64.whl
+Requirement already satisfied: opt-einsum~=3.3.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (3.3.0)
+Requirement already satisfied: grpcio~=1.32.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.32.0)
+Requirement already satisfied: keras-preprocessing~=1.1.2 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.1.2)
+Requirement already satisfied: typing-extensions~=3.7.4 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (3.7.4.3)
+Requirement already satisfied: wrapt~=1.12.1 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.12.1)
+Collecting gast==0.3.3 (from tensorflow)
+  Using cached https://files.pythonhosted.org/packages/d6/84/759f5dd23fec8ba71952d97bcc7e2c9d7d63bdc582421f3cd4be845f0c98/gast-0.3.3-py2.py3-none-any.whl
+Requirement already satisfied: termcolor~=1.1.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.1.0)
+Collecting tensorboard~=2.4 (from tensorflow)
+  Using cached https://files.pythonhosted.org/packages/44/f5/7feea02a3fb54d5db827ac4b822a7ba8933826b36de21880518250b8733a/tensorboard-2.5.0-py3-none-any.whl
+Requirement already satisfied: six~=1.15.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.15.0)
+Requirement already satisfied: h5py~=2.10.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (2.10.0)
+Requirement already satisfied: astunparse~=1.6.3 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.6.3)
+Requirement already satisfied: absl-py~=0.10 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (0.12.0)
+Requirement already satisfied: google-pasta~=0.2 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (0.2.0)
+Requirement already satisfied: protobuf>=3.9.2 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (3.15.8)
+Collecting tensorflow-estimator<2.5.0,>=2.4.0 (from tensorflow)
+  Using cached https://files.pythonhosted.org/packages/74/7e/622d9849abf3afb81e482ffc170758742e392ee129ce1540611199a59237/tensorflow_estimator-2.4.0-py2.py3-none-any.whl
+Requirement already satisfied: flatbuffers~=1.12.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.12)
+Requirement already satisfied: wheel~=0.35 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (0.36.2)
+Requirement already satisfied: numpy~=1.19.2 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorflow) (1.19.5)
+Requirement already satisfied: requests<3,>=2.21.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (2.25.1)
+Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (0.4.4)
+Requirement already satisfied: tensorboard-data-server<0.7.0,>=0.6.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (0.6.0)
+Requirement already satisfied: tensorboard-plugin-wit>=1.6.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (1.8.0)
+Requirement already satisfied: werkzeug>=0.11.15 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (1.0.1)
+Requirement already satisfied: setuptools>=41.0.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (56.0.0)
+Requirement already satisfied: google-auth<2,>=1.6.3 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (1.29.0)
+Requirement already satisfied: markdown>=2.6.8 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from tensorboard~=2.4->tensorflow) (3.3.4)
+Requirement already satisfied: idna<3,>=2.5 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard~=2.4->tensorflow) (2.10)
+Requirement already satisfied: chardet<5,>=3.0.2 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard~=2.4->tensorflow) (4.0.0)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard~=2.4->tensorflow) (1.26.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from requests<3,>=2.21.0->tensorboard~=2.4->tensorflow) (2020.12.5)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard~=2.4->tensorflow) (1.3.0)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from google-auth<2,>=1.6.3->tensorboard~=2.4->tensorflow) (0.2.8)
+Requirement already satisfied: rsa<5,>=3.1.4; python_version >= "3.6" in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from google-auth<2,>=1.6.3->tensorboard~=2.4->tensorflow) (4.7.2)
+Requirement already satisfied: cachetools<5.0,>=2.0.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from google-auth<2,>=1.6.3->tensorboard~=2.4->tensorflow) (4.2.1)
+Requirement already satisfied: importlib-metadata; python_version < "3.8" in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from markdown>=2.6.8->tensorboard~=2.4->tensorflow) (4.0.1)
+Requirement already satisfied: oauthlib>=3.0.0 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard~=2.4->tensorflow) (3.1.0)
+Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from pyasn1-modules>=0.2.1->google-auth<2,>=1.6.3->tensorboard~=2.4->tensorflow) (0.4.8)
+Requirement already satisfied: zipp>=0.5 in /Users/tanishq/Downloads/final Year Project/WD/Weapon-Detection-Project/env/lib/python3.7/site-packages (from importlib-metadata; python_version < "3.8"->markdown>=2.6.8->tensorboard~=2.4->tensorflow) (3.4.1)
+Installing collected packages: gast, tensorboard, tensorflow-estimator, tensorflow
+  Found existing installation: gast 0.2.2
+    Uninstalling gast-0.2.2:
+      Successfully uninstalled gast-0.2.2
+  Found existing installation: tensorboard 1.15.0
+    Uninstalling tensorboard-1.15.0:
+      Successfully uninstalled tensorboard-1.15.0
+  Found existing installation: tensorflow-estimator 1.15.1
+    Uninstalling tensorflow-estimator-1.15.1:
+      Successfully uninstalled tensorflow-estimator-1.15.1
+Successfully installed gast-0.3.3 tensorboard-2.5.0 tensorflow-2.4.1 tensorflow-estimator-2.4.0
